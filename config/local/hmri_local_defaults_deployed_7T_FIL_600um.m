@@ -54,3 +54,5 @@ hmri_def.imperfectSpoilCorr.FIL_600um_2021.enabled = hmri_def.imperfectSpoilCorr
 
 hmri_def.interp = 7;
 hmri_def.cleanup = false;
+
+hmri_def.MPMacq.TE_pdw = [2.2 4.58 6.96 9.34 11.72 14.1]'; % [ms] % included because I used coregistration of scan 2 PDw data to scan 1 and in nifti header the into about TEs was wiped out
